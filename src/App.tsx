@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Tabs,  TabsContent } from "@/components/ui/tabs";
+import { Tabs, TabsContent } from "@/components/ui/tabs";
 import {
   Card,
   CardHeader,
@@ -9,13 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import {
-  Brain,
-  TestTube,
-  Heart,
-  User,
-  Users,
-} from "lucide-react";
+import { Brain, TestTube, Heart, User, Users } from "lucide-react";
 import questionnaire from "./questionnaire.json";
 interface Question {
   question: string;
@@ -28,7 +22,7 @@ interface Question {
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("overview");
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
       <header className="bg-white border-b">
@@ -37,27 +31,97 @@ const App = () => {
             <h1 className="text-2xl font-bold text-slate-800">
               Tridosha Research Portal
             </h1>
-            <div className="space-x-4">
-              <Button variant="ghost" onClick={() => setActiveTab("overview")}>
+            <div className="flex items-center space-x-4 md:space-x-6">
+              <div className="hidden md:flex space-x-4">
+                <Button
+                  variant="ghost"
+                  onClick={() => setActiveTab("overview")}
+                >
+                  Overview
+                </Button>
+                <Button variant="ghost" onClick={() => setActiveTab("shabda")}>
+                  Shabda Pariksha
+                </Button>
+                <Button
+                  variant="ghost"
+                  onClick={() => setActiveTab("questionnaire")}
+                >
+                  Questionnaire
+                </Button>
+                <Button
+                  variant="ghost"
+                  onClick={() => setActiveTab("research")}
+                >
+                  Research
+                </Button>
+                <Button variant="ghost" onClick={() => setActiveTab("about")}>
+                  About
+                </Button>
+              </div>
+
+              {/* Hamburger Menu */}
+              <button
+                className="md:hidden text-slate-800"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </nav>
+
+          {/* Mobile Menu */}
+          {isMenuOpen && (
+            <div className="md:hidden mt-4 space-y-4">
+              <Button
+                variant="ghost"
+                className="w-full"
+                onClick={() => setActiveTab("overview")}
+              >
                 Overview
               </Button>
-              <Button variant="ghost" onClick={() => setActiveTab("shabda")}>
+              <Button
+                variant="ghost"
+                className="w-full"
+                onClick={() => setActiveTab("shabda")}
+              >
                 Shabda Pariksha
               </Button>
               <Button
                 variant="ghost"
+                className="w-full"
                 onClick={() => setActiveTab("questionnaire")}
               >
                 Questionnaire
               </Button>
-              <Button variant="ghost" onClick={() => setActiveTab("research")}>
+              <Button
+                variant="ghost"
+                className="w-full"
+                onClick={() => setActiveTab("research")}
+              >
                 Research
               </Button>
-              <Button variant="ghost" onClick={() => setActiveTab("about")}>
+              <Button
+                variant="ghost"
+                className="w-full"
+                onClick={() => setActiveTab("about")}
+              >
                 About
               </Button>
             </div>
-          </nav>
+          )}
         </div>
       </header>
 
