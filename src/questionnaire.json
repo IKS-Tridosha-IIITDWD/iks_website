@@ -1,0 +1,181 @@
+{
+    "questionnaire": [
+      {
+        "question": "Body Type",
+        "options": {
+          "A": "Lean / Thin body- long and narrow (Vata)",
+          "B": "Well-built, solid body-moderately developed physique, and proportional. (Pitta)",
+          "C": "Plump, slight obese, robust body- bigger bones, broad shoulders and hips (Kapha)"
+        }
+      },
+      {
+        "question": "Limbs and Joints",
+        "options": {
+          "A": "Small, thin, cold, cracking. (Vata)",
+          "B": "Medium, soft, loose. (Pitta)",
+          "C": "Large, thick, well-built, lubricated. (Kapha)"
+        }
+      },
+      {
+        "question": "Appearance of Veins",
+        "options": {
+          "A": "Many Veins Prominent (Vata): Veins are very visible and prominent due to thin skin",
+          "B": "Moderately Visible Veins (Pitta): Veins are moderately visible, especially during physical activity, with average skin thickness.",
+          "C": "Less Visible Veins (Kapha): Veins are less visible due to thicker skin"
+        }
+      },
+      {
+        "question": "Eye Characteristics",
+        "options": {
+          "A": "Looks like a half-awake (Vata)",
+          "B": "Red eyes, Sharp, bright, sensitive to light (Pitta)",
+          "C": "White eyes and big (Kapha)"
+        }
+      },
+      {
+        "question": "Teeth Characteristics",
+        "options": {
+          "A": "Medium, sensitive gums that bleed easily. (Vata)",
+          "B": "Small, may protrude, thin gums, tend to recede. (Pitta)",
+          "C": "Light pink, thick, strong gums. (Kapha)"
+        }
+      },
+      {
+        "question": "Skin Characteristics",
+        "options": {
+          "A": "Dry Skin (Vata): Skin is rough, flaky, and lacks moisture",
+          "B": "Warm Skin (Pitta): Skin is warm to the touch, smooth with a natural glow.",
+          "C": "Moist Skin, Sweats Easily (Kapha): Skin is moist and smooth, with a tendency to sweat more and appear oily."
+        }
+      },
+      {
+        "question": "Hair Characteristics",
+        "options": {
+          "A": "Rough Hair (Vata): Hair is dry, coarse, and brittle, often feeling rough and looking dull.",
+          "B": "Sparse Hair (Pitta): Hair is thin and less dense, with possible thinning areas.",
+          "C": "Thick Hair (Kapha): Hair is dense, full-bodied, and well-lubricated, with a smooth texture and abundant volume."
+        }
+      },
+      {
+        "question": "Nails Characteristics",
+        "options": {
+          "A": "Rough and thin nails (Vata)",
+          "B": "Smooth and thin nails (Pitta)",
+          "C": "Low nail growth, thick, smooth nails (Kapha)"
+        }
+      },
+      {
+        "question": "Voice Characteristics",
+        "options": {
+          "A": "Talkative, fast (Vata)",
+          "B": "Clear cut and moderate talking (Pitta)",
+          "C": "Smooth and slow Voice (Kapha)"
+        }
+      },
+      {
+        "question": "Appetite",
+        "options": {
+          "A": "Irregular appetite (Vata)",
+          "B": "Strong appetite (Pitta)",
+          "C": "Low appetite (Kapha)"
+        }
+      },
+      {
+        "question": "Thirst",
+        "options": {
+          "A": "Intense thirst (Vata)",
+          "B": "Low thirst (Pitta)",
+          "C": "Sometimes I'm thirsty, sometimes I forget to drink water (Kapha)"
+        }
+      },
+      {
+        "question": "Gait/ manner of walking",
+        "options": {
+          "A": "Light, fast movement (Vata)",
+          "B": "Moderate and required movement (Pitta)",
+          "C": "Slow movement (Kapha)"
+        }
+      },
+      {
+        "question": "Bowel Movements",
+        "options": {
+          "A": "Irregular Bowel Movements (Vata): Inconsistent and variable, with hard, dry stools",
+          "B": "Soft Bowel Movements (Pitta): Regular but soft to loose stools",
+          "C": "Medium Bowel Movements (Kapha): Regular, well-formed, and moderately frequent stools, with smooth and easy passage."
+        }
+      },
+      {
+        "question": "Sleep Pattern",
+        "options": {
+          "A": "Light sleeper (Vata)- Irregular, light, tends towards insomnia.",
+          "B": "Medium sleep (Pitta)- Moderate, may wake up but will fall asleep again.",
+          "C": "Heavy sleeper (Kapha)- Deep, prolonged, difficulty waking up."
+        }
+      },
+      {
+        "question": "Strength",
+        "options": {
+          "A": "Low strength (Vata)",
+          "B": "Medium strength (Pitta)",
+          "C": "High strength (Kapha)"
+        }
+      },
+      {
+        "question": "Taste Preference",
+        "options": {
+          "A": "Warm, Sweet, sour, salty (Vata)",
+          "B": "Cold, Sweet, bitter, pungent (Pitta)",
+          "C": "Hot, Pungent, bitter, pungent (Kapha)"
+        }
+      },
+      {
+        "question": "Mind Characteristics",
+        "options": {
+          "A": "Atheist (Vata): Restless and curious mind, open to unconventional ideas and changing beliefs frequently.",
+          "B": "Intelligent (Pitta): Sharp, analytical mind, driven by a desire for knowledge, with strong logical reasoning and decisiveness.",
+          "C": "Steadfast (Kapha): Calm, stable, and loyal mind, with a deep sense of commitment, reflecting deeply and valuing stability in beliefs and decisions."
+        }
+      },
+      {
+        "question": "Emotional Stability",
+        "options": {
+          "A": "Unstable mind (Vata)",
+          "B": "Emotional, caring (Pitta)",
+          "C": "Firm (Kapha)"
+        }
+      },
+      {
+        "question": "Memory",
+        "options": {
+          "A": "Easily forgets (Vata)",
+          "B": "Excellent memory (Pitta)",
+          "C": "Good memory but sometimes forget (Kapha)"
+        }
+      },
+      {
+        "question": "Reaction to Anger",
+        "options": {
+          "A": "Quick to Anger (Vata): Anger arises quickly and impulsively, but is short-lived",
+          "B": "Quick to Start, Intense Anger (Pitta): Anger is intense and arises quickly, with strong, direct expressions.",
+          "C": "Calm and Patient (Kapha): Slow to anger, maintaining a calm and patient demeanor."
+        }
+      },
+      {
+        "question": "Competitiveness",
+        "options": {
+          "A": "Moderate envious, jealous (Vata): Moderate competitiveness",
+          "B": "Stubborn, Can't Forgive (Pitta): Intense and competitive jealousy",
+          "C": "Able to Bear Stress (Kapha): Experiences less jealousy, maintaining a calm, resilient, and supportive demeanor."
+        }
+      },
+      {
+        "question": "Talkativeness",
+        "options": {
+          "A": "Talks a lot: I’m talkative and I speak quickly. (Vata)",
+          "B": "Stubborn: I like to convince and I can be argumentative. (Pitta)",
+          "C": "Peaceful: I don’t speak that often, but when I do I speak slowly. (Kapha)"
+        }
+      }
+    ]
+  }
+  
